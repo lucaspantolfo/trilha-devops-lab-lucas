@@ -2,7 +2,7 @@
 
 variable "aws_region" {
 
-  description = "Região AWS para criar os recursos"
+  description = "Região AWS para criar os recursos aws"
 
   type = string
 
