@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket  = "prod-trilha-devops-fanaticos4tech-terraform-state"
+    bucket  = "prod-trilha-devops-lucaspantolfo-terraform-state"
     key     = "terraform.tfstate"
     region  = var.aws_region
     encrypt = true
